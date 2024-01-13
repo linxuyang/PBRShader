@@ -1,3 +1,3 @@
 # PBRShader
  CustomPBRShader
- ![示例图片](/Images/pbg.png)
+ ![示例图片](/Images/pbr.png)
