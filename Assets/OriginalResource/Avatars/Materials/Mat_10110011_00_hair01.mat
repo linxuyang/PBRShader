@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mat_10110011_00_hair01
+  m_Shader: {fileID: 4800000, guid: 2c6a6004abe16ae478d14f58eba12cf4, type: 3}
+  m_ShaderKeywords: _AMBIENT_OFF _ANISO_DIRECTION_V _ANISO_NOISE_ON _DEBUG_NONE _DYE_OFF
+    _OL_COLOR_DIFFUSE _RIM_COLOR_DIFFUSE _RIM_COLOR_LIGHT _RIM_ON_LIGHT_DIRECTION
+    _SHADOW2_ON _SHADOWTEX_ON _SPECULAR_ON _TOON_RIM
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AnisoSpecNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 76611f861d9ffaf4db13bf792f53d64e, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _BentNormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DyeFlowMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DyeMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DyeNoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowLightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ILMTex:
+        m_Texture: {fileID: 2800000, guid: 7851173c5bd00ba4982df92e7980f2da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4e0ada32d03875e4f83f90ccb2a78a0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 2800000, guid: 4e0ada32d03875e4f83f90ccb2a78a0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 1
+    - _AOLevel: 1
+    - _AlphaScale: 1
+    - _AmbientToggle: 1
+    - _AnisoBaseGlossiness: 1
+    - _AnisoGlossiness: 0.41
+    - _AnisoNoiseScale: 0.5
+    - _AnisoNoiseToggle: 1
+    - _AnisoSpecBasePower: 1
+    - _AnisoSpecPower: 0.49
+    - _AnisoSpecularPosition: 0.34
+    - _Aniso_Direction: 1
+    - _BentNormalToggle: 0
+    - _BlinkSpeed: 1
+    - _BlinkTile: 1
+    - _BumpMapToggle: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _CutOff: 0
+    - _Cutoff: 0.5
+    - _Debug: 0
+    - _DetailNormalMapScale: 1
+    - _DstAlphaBlend: 0
+    - _DstBlend: 0
+    - _Dye: 0
+    - _DyeFireWidth: 0.5
+    - _DyeOffset: 0
+    - _DyePercent: 1
+    - _DyeScale: 0.5
+    - _DyeToggle: 0
+    - _DyeTrasitionWidth: 0.02
+    - _EmissionPower: 0.75
+    - _EmissionToggle: 0
+    - _FlowAbleToggle: 0
+    - _FlowDirectionX: 0
+    - _FlowDirectionY: 8
+    - _FlowSpeed: 1
+    - _FromIsOrigin: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 1
+    - _MetallicLevel: 1
+    - _Mode: 0
+    - _NormalScale: 2
+    - _OcclusionStrength: 1
+    - _OffsetH1: 0
+    - _OffsetH2: 0
+    - _OffsetH3: 0
+    - _OffsetH4: 0
+    - _OffsetS1: 0
+    - _OffsetS2: 0
+    - _OffsetS3: 0
+    - _OffsetS4: 0
+    - _OffsetV1: 0
+    - _OffsetV2: 0
+    - _OffsetV3: 0
+    - _OffsetV4: 0
+    - _Outline: 0.04
+    - _OutlineColorDiffuseToggle: 1
+    - _OutlineDispearDistance: 1
+    - _OutlineToggle: 0
+    - _OutlineZBias: 0
+    - _Parallax: 0.02
+    - _RimColorDiffuseToggle: 1
+    - _RimColorLightToggle: 1
+    - _RimDiffuseBlend: 0.84
+    - _RimLightDirToggle: 1
+    - _RimPermeation: 0.24
+    - _RimPower: 3
+    - _RimSimpleToggle: 0
+    - _RimToggle: 0
+    - _RimWidth: 1
+    - _Roughness: 1
+    - _RoughnessLevel: 1
+    - _ScreenDoorAlpha: 1
+    - _ScreenDoorToggle: 0
+    - _Shadow2Toggle: 1
+    - _ShadowSelfToggle: 1
+    - _SkinToggle: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecPower: 0.2
+    - _SpecularHighlights: 1
+    - _SpecularToggle: 1
+    - _SrcAlphaBlend: 1
+    - _SrcBlend: 1
+    - _StencilOp: 0
+    - _StencilVal: 2
+    - _ToIsOrigin: 0
+    - _ToonAnisoStep: 0.226
+    - _ToonAnisoToggle: 0
+    - _ToonFeather: 0.364
+    - _ToonFeather2: 0
+    - _ToonRimFeather: 0.389
+    - _ToonRimStep: 0.521
+    - _ToonRimToggle: 1
+    - _ToonStep: 0.491
+    - _ToonStep2: 0.46
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AnisoBaseSpecColor: {r: 0.3688355, g: 0.2795924, b: 0.5754717, a: 1}
+    - _AnisoSpecColor: {r: 1, g: 0.7137255, b: 0.7254902, a: 1}
+    - _BlinkColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.7924528, g: 0.6018156, b: 0.6018156, a: 1}
+    - _DyeTransitionColor: {r: 0.6320754, g: 0.425409, b: 0.02087043, a: 0}
+    - _DyeTransitionColor2: {r: 1, g: 0, b: 0.5450983, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlowColor1: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _FlowColor2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _FlowLightColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _FlowParam1: {r: 1, g: 1, b: 1, a: 1}
+    - _FlowParam2: {r: 1, g: 1, b: 1, a: 1}
+    - _Offset1: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset1Row1: {r: 1, g: 0, b: 0, a: 0}
+    - _Offset1Row2: {r: 0, g: 1, b: 0, a: 0}
+    - _Offset1Row3: {r: 0, g: 0, b: 1, a: 0}
+    - _Offset2: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset2Row1: {r: 1, g: 0, b: 0, a: 0}
+    - _Offset2Row2: {r: 0, g: 1, b: 0, a: 0}
+    - _Offset2Row3: {r: 0, g: 0, b: 1, a: 0}
+    - _Offset3: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset3Row1: {r: 1, g: 0, b: 0, a: 0}
+    - _Offset3Row2: {r: 0, g: 1, b: 0, a: 0}
+    - _Offset3Row3: {r: 0, g: 0, b: 1, a: 0}
+    - _OffsetFrom1: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetFrom2: {r: 0, g: 0, b: 0, a: 0}
+    - _OffsetFrom3: {r: 0, g: 0, b: 0, a: 0}
+    - _OutlineColor: {r: 0.566, g: 0.4289, b: 0.4289, a: 1}
+    - _RimColor: {r: 0.4528302, g: 0.34785593, b: 0.33962265, a: 1}
+    - _ShadowColor1: {r: 0.46226418, g: 0.45136172, b: 0.45136172, a: 1}
+    - _ShadowColor2: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_BuildTextureStacks: []

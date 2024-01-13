@@ -1,0 +1,836 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+  - first: {fileID: 10760, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 60e9b05b6ebe14373aba403ab929bad3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: f0a61edfb4902804ea7d51b110dbb80c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: f0f7268aac39245c28edcf74d77d4490, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: d123659ecff976f44b524b3477a134a2, type: 3}
+    second:
+      variants:
+      - keywords: _MUL_NOISE_ON
+        passType: 0
+      - keywords: _MUL_NOISE_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: d167079d7348b5e4698d485b1b5cfad7, type: 3}
+    second:
+      variants:
+      - keywords: FAKELIGHT_ON WAVE_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: e1095e9fc658b6d41a50cba5b9f34ac3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f11fd72339aa7401da92c6be955de1b7, type: 3}
+    second:
+      variants:
+      - keywords: _AMBIENT_ON _Rippling_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 1298ecafd733120419553dbdd74f0746, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: d2e5276bd539cc449ab76dfae63ef6d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: e2d690e95185e6b41ac8db5ee679f937, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _ENVREFLECT_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _EMISSION_ON _ENVREFLECT_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: f246be3a8ac3fb64191adfa9c97d756d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: d377e094c92ee654ea0462a80b29fa44, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: f3fcb511b4f869c46a783dd43795bc6a, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 041e0c4806695e94a8e5fbd4dd4ab1c6, type: 3}
+    second:
+      variants:
+      - keywords: OUT_LINE
+        passType: 0
+  - first: {fileID: 4800000, guid: 24326df088a25ad42b97eac9fe80b451, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _TEXTURE_THREE
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _TEXTURE_FOUR
+        passType: 13
+  - first: {fileID: 4800000, guid: a4b831b36d374954fa51541c808e96cd, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _NOISECHANNELVERTEXEXTRMASK_DISABLE _NOISECHANNEL_ALPHA_OFF
+          _NOISECHANNEL_EXTRUDE_OFF _NOISECHANNEL_RGB_OFF _NOISECHANNEL_UV_OFF _NOISE_OFF
+        passType: 13
+  - first: {fileID: 4800000, guid: c4946b8dbe8eb4d9b90b121783e0689c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: e4afb594814b7474d916fda30b31d2ab, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: f4c09475962614547b1636f718e34dc5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 95516560d6f954f098df64b9fe3c49ec, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 2606a68698db3af45b1645dd04853a10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _EMISSION_ON _HFOGFUNC_LINEAR _SCREENDOORDEBUG_NONE _SHAKE_ON _TREE_DARK_ON
+        passType: 8
+      - keywords: DIRLIGHTMAP_COMBINED INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+          SHADOWS_SHADOWMASK _EMISSION_ON _HFOGFUNC_LINEAR _SCREENDOORDEBUG_NONE
+          _SHAKE_ON _TREE_DARK_ON
+        passType: 8
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _SHAKE_ON
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+          _EMISSION_ON _MAIN_LIGHT_SHADOWS _SHAKE_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 26e75e1f0e24b1043a142567e73bc416, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 369ab3beda79707468815f6e5b4de152, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 66f3659be70e1cb4ebd04493d83b599f, type: 3}
+    second:
+      variants:
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV _VCOLOR_ALPHA_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV _BURN_MAP_NOISE_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV _BURN_MAP_NOISE_ON _VCOLOR_ALPHA_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV _VCOLOR_ALPHA_ON _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV _BURN_MAP_NOISE_ON _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_XY _VCOLOR_ALPHA_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_XY _VCOLOR_ALPHA_ON _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_ADD _BURNUVMODE_UV
+        passType: 13
+      - keywords: _BURNNOISEMODE_ADD _BURNUVMODE_UV _BURN_MAP_NOISE_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_ADD _BURNUVMODE_UV _BURN_MAP_NOISE_ON _VCOLOR_ALPHA_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_ADD _BURNUVMODE_UV _VCOLOR_ALPHA_ON _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_ADD _BURNUVMODE_UV _BURN_MAP_NOISE_ON _VCOLOR_ALPHA_ON
+          _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_SUB _BURNUVMODE_UV
+        passType: 13
+      - keywords: _BURNNOISEMODE_SUB _BURNUVMODE_UV _BURN_MAP_NOISE_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_MUL _BURNUVMODE_UV
+        passType: 13
+      - keywords: _BURNNOISEMODE_MUL _BURNUVMODE_UV _VCOLOR_ALPHA_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_MUL _BURNUVMODE_UV _BURN_MAP_NOISE_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_MUL _BURNUVMODE_UV _VCOLOR_ALPHA_ON _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_MUL _BURNUVMODE_UV _BURN_MAP_NOISE_ON _VCOLOR_ALPHA_ON
+          _VCOLOR_A_REV_BURN_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 178a4d97b85028a48a67f5dcd1d8ccdf, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 8768bf200ee21b3418ea97a62480b2a8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 977f589803e2b4b8da267456d52234a9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _OL_ON
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _NORMAL_ON _RECEIVE_SHADOWS_OFF _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _NORMAL_ON _RECEIVE_SHADOWS_OFF
+          _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _NORMAL_ON _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _NORMAL_ON _RECEIVE_SHADOWS_OFF
+          _RIM_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP_ON _NORMAL_ON _RECEIVE_SHADOWS_OFF
+          _RIM_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP_ON _RECEIVE_SHADOWS_OFF
+          _RIM_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+  - first: {fileID: 4800000, guid: f7d84188a267fda489fe0bdf20430b16, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _OL_ON
+        passType: 13
+      - keywords: _MATCAP2_ON _NORMAL_ON _RIM_ON _SPECULAR_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MATCAP2_ON _NORMAL_ON _RIM_ON _SPECULAR_ON
+        passType: 14
+      - keywords: _MATCAP2_ON _NORMAL_ON _RIM_ON _SPECULAR_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MATCAP2_ON _NORMAL_ON _RIM_ON _SPECULAR_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MATCAP2_ON _NORMAL_ON _RIM_ON _SPECULAR_ON
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MATCAP2_ON _NORMAL_ON _RIM_ON _SPECULAR_ON
+          _TOON_RIM
+        passType: 14
+  - first: {fileID: 4800000, guid: e8af2c9dd9ca4316af5b0e817e96d300, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 095524c4a9f018341bdc84bc66908269, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+          _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+          _EMISSION_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _ENVREFLECT_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _EMISSION_ON _ENVREFLECT_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+          _EMISSION_ON _ENVREFLECT_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 099eef96f3d6fc04e870203306a77ae9, type: 3}
+    second:
+      variants:
+      - keywords: DUMMY
+        passType: 13
+  - first: {fileID: 4800000, guid: 496f413f5a64e024ba671949cdc62083, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _AMBIENT_OFF _AMBIENT_ON_HIGH _AMBIENT_ON_MID _ANISO_DIRECTION_U
+          _BLEND1_ADD _BLEND2_ADD _DEBUG_NONE _DYE_OFF _EMISSION_ON _MATCAP2_COLOR_DIFFUSE
+          _MATCAP2_ON _MATCAP2_ROUGHNESS _MATCAP_ON _MATCAP_REFLECT_ON _NORMAL_ON
+          _OL_COLOR_DIFFUSE _OL_ON _RIM_COLOR_DIFFUSE _RIM_COLOR_LIGHT _RIM_ON _RIM_ON_LIGHT_DIRECTION
+          _SHADOWTEX_ON _SPECULAR_ON _SPEC_ON _TOON1_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: _OL_ON
+        passType: 13
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RIM_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP_ON _RIM_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _RIM_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _RECEIVE_SHADOWS_OFF
+          _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP_ON _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+          _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+          _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _SHADOWTEX_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _RIM_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RIM_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP_ON _RECEIVE_SHADOWS_OFF _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP_ON _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP_ON _RECEIVE_SHADOWS_OFF
+          _RIM_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _RIM_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON
+          _SHADOWTEX_ON
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON
+          _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP_ON _RIM_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP_ON _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+          _RIM_ON _SHADOWTEX_ON
+        passType: 14
+      - keywords: _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON _RIM_ON _SHADOWTEX_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MAIN_LIGHT_SHADOWS _MATCAP2_ON _MATCAP_ON
+          _RIM_ON _SHADOWTEX_ON _TOON_RIM
+        passType: 14
+  - first: {fileID: 4800000, guid: 59642369ad6739844bde2863f4233a4b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _FRESNEL_ON
+        passType: 13
+      - keywords: _DISS_ON
+        passType: 13
+      - keywords: _DISS_ON _FRESNEL_ON
+        passType: 13
+      - keywords: _MASK_ON
+        passType: 13
+      - keywords: SOFTPARTICLES_ON _MASK_ON
+        passType: 13
+      - keywords: UNITY_UI_CLIP_RECT _MASK_ON
+        passType: 13
+      - keywords: _FRESNEL_ON _MASK_ON
+        passType: 13
+      - keywords: _DISS_ON _MASK_ON
+        passType: 13
+      - keywords: _DISS_ON _FRESNEL_ON _MASK_ON
+        passType: 13
+      - keywords: _DIST_ON
+        passType: 13
+      - keywords: _DIST_ON _FRESNEL_ON
+        passType: 13
+      - keywords: _DISS_ON _DIST_ON
+        passType: 13
+      - keywords: _DIST_ON _MASK_ON
+        passType: 13
+      - keywords: _DIST_ON _FRESNEL_ON _MASK_ON
+        passType: 13
+      - keywords: _DISS_ON _DIST_ON _MASK_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: a97b40aa55df35741b001f561b383886, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _EMISSION_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _SCREEN_DOOR_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: a98d127aa10f2be40a294ddf08a05f29, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON SelfLuminous_ON _Rippling_ON _SPECULAR_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: _AMBIENT_ON _Rippling_ON
+        passType: 13
+      - keywords: FAKELIGHT_ON _Rippling_ON
+        passType: 13
+      - keywords: SelfLuminous_ON
+        passType: 13
+      - keywords: SelfLuminous_ON _Rippling_ON
+        passType: 13
+      - keywords: SelfLuminous_ON _AMBIENT_ON _Rippling_ON
+        passType: 13
+      - keywords: FAKELIGHT_ON SelfLuminous_ON _AMBIENT_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 2ad5d23f03b358048ac12c3b0d0dda29, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+      - keywords: _EMISSION_ON
+        passType: 13
+      - keywords: INSTANCING_ON _EMISSION_ON
+        passType: 13
+      - keywords: INSTANCING_ON _EMISSION_ON _SCREEN_DOOR_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 3a1cfa707ff222d4da4effaffa53174d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _OL_ON
+        passType: 13
+      - keywords: _EMISSION_ON _MATCAP2_ON _NORMAL_ON _RIM_ON _SPECULAR_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _MATCAP2_ON _MATCAP_ON _NORMAL_ON _RIM_ON _SPECULAR_ON
+        passType: 14
+      - keywords: _EMISSION_ON _MATCAP2_ON _MATCAP_ON _NORMAL_ON _RIM_ON _SPECULAR_ON
+          _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _FLOW_ON _MATCAP2_ON _MATCAP_ON _NORMAL_ON _RIM_ON
+          _SPECULAR_ON
+        passType: 14
+  - first: {fileID: 4800000, guid: 9a38cfb10c4214b30b06cf608231bd89, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _AMBIENT_ON
+        passType: 13
+      - keywords: _AMBIENT_ON _Rippling_ON
+        passType: 13
+      - keywords: _AMBIENT_ON _SPECULAR_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: da745b26c8188c346a0198825afa2ee0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: dad57be331533bf459d1cf364d61a005, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: SOFTPARTICLES_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 0b81526fa33301849aee584e97d67895, type: 3}
+    second:
+      variants:
+      - keywords: OUT_LINE
+        passType: 0
+  - first: {fileID: 4800000, guid: 5be36c06810efa545b38c393682c4a87, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 2c6a6004abe16ae478d14f58eba12cf4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _OL_ON
+        passType: 13
+      - keywords: 
+        passType: 14
+      - keywords: _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _RIM_ON
+        passType: 14
+      - keywords: _EMISSION_ON _NORMAL_ON _RIM_ON
+        passType: 14
+      - keywords: _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _NORMAL_ON _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _EMISSION_ON _NORMAL_ON _RIM_ON _TOON_RIM
+        passType: 14
+      - keywords: _FLOW_ON
+        passType: 14
+      - keywords: _FLOW_ON _RIM_ON _TOON_RIM
+        passType: 14
+  - first: {fileID: 4800000, guid: 8c49e41ccd8b65f40829956ef93a27d1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1d40257cd7fc2454d84d020a7ff44f64, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _NORMAL_ON
+        passType: 13
+      - keywords: _EMISSION_ON
+        passType: 13
+      - keywords: _EMISSION_ON _FLOW_ON
+        passType: 13
+      - keywords: _RIM_ON
+        passType: 13
+      - keywords: _EMISSION_ON _RIM_ON
+        passType: 13
+      - keywords: _EMISSION_ON _FLOW_ON _NORMAL_ON _RIM_ON
+        passType: 13
+      - keywords: _EMISSION_ON _HIT_RIM _RIM_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 1d1aa5814cb4bf943bb2a4e6c8d1d8d2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: SOFTPARTICLES_ON
+        passType: 13
+      - keywords: UNITY_UI_CLIP_RECT
+        passType: 13
+  - first: {fileID: 4800000, guid: 7d61386405acfc0478dcfdc9cfcec7ad, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: dd482a4b1cc0a6c44aac77b59a7eb942, type: 3}
+    second:
+      variants:
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_UV _VCOLOR_ALPHA_ON _VCOLOR_A_REV_BURN_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_UV _BURNUVMODE_XY _VCOLOR_ALPHA_ON
+        passType: 13
+      - keywords: _BURNNOISEMODE_SUB _BURNUVMODE_UV _BURN_MAP_NOISE_ON _VCOLOR_ALPHA_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 7ef9b2ef17c44951825f555900dc2357, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _DISSOLVE_ON
+        passType: 13
+      - keywords: _DISSOLVE_ON _UV1_ON
+        passType: 13
+      - keywords: _DISSOLVE_ON _NOISE_ON _UV1_ON
+        passType: 13
+      - keywords: _MASK_ON
+        passType: 13
+      - keywords: _MASK_ON _UV1_ON
+        passType: 13
+      - keywords: _MASK_ON _NOISE_ON _UV1_ON
+        passType: 13
+      - keywords: _DISSOLVE_ON _MASK_ON
+        passType: 13
+      - keywords: _DISSOLVE_ON _MASK_ON _UV1_ON
+        passType: 13
+      - keywords: _DISSOLVE_ON _MASK_ON _NOISE_ON
+        passType: 13
+      - keywords: _DISSOLVE_ON _MASK_ON _NOISE_ON _UV1_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 7e3ae6c5b408a114e8efba068e45056c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: be772bdb1ccf54832a340faff6617e66, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _STARS_ON
+        passType: 13
+      - keywords: _CLOUD1_ON _STARS_ON
+        passType: 13
+      - keywords: _CLOUD1_ON _CLOUD2_ON
+        passType: 13
+      - keywords: _CLOUD1_ON _CLOUD2_ON _STARS_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: be5ee1a92e7c00140a20a3f315064d10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: 
+        passType: 14
+  - first: {fileID: 4800000, guid: 2fd19e6298c6b284ea8562b56c857b86, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 9f1c30f49ef29434c8a9adeee831b064, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: bff0de0eb90c84aa897725a831de0e10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: bff47cb97cd37e447845d718151fd63c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: FAKELIGHT_ON _FOAM_ON _REFLECTION_IBL _SeabedTex_ON
+        passType: 8
+      - keywords: _REFLECTION_NONE
+        passType: 13
+      - keywords: FAKELIGHT_ON _REFLECTION_NONE
+        passType: 13
+      - keywords: FAKELIGHT_ON _REFLECTION_REALTIME
+        passType: 13
+      - keywords: _FOAM_ON _REFLECTION_REALTIME
+        passType: 13
+      - keywords: _REFLECTION_CUBE
+        passType: 13
+      - keywords: FAKELIGHT_ON _REFLECTION_CUBE
+        passType: 13
+      - keywords: FAKELIGHT_ON _FOAM_ON _REFLECTION_CUBE
+        passType: 13
+      - keywords: _REFLECTION_IBL
+        passType: 13
+      - keywords: _FOAM_ON _REFLECTION_IBL
+        passType: 13
+      - keywords: FAKELIGHT_ON _FOAM_ON _REFLECTION_IBL
+        passType: 13
+  - first: {fileID: 4800000, guid: ef81a8386a38462e9150094f6704c5fa, type: 3}
+    second:
+      variants:
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: INSTANCING_ON _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _TEXTURE_THREE
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _TEXTURE_FOUR
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+          _MAIN_LIGHT_SHADOWS _TEXTURE_FOUR
+        passType: 13
+      - keywords: INSTANCING_ON _MAIN_LIGHT_SHADOWS _TEXTURE_FOUR
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+          SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS _TEXTURE_FOUR
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _WET_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: ff98650b7bf763c438613066e9417405, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 9d854e1a11d74c38b16204171d8342b3, type: 3}
+    second:
+      variants: []
+  - first: {fileID: 4800000, guid: 1daa935974054c5e853da287c23dcfb0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
